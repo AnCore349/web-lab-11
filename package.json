@@ -1,0 +1,19 @@
+{
+  "name": "game-ball-js",
+  "version": "1.0.0",
+  "description": "NW.js desktop brick-breaker game",
+  "private": true,
+  "main": "src/",
+  "scripts": {
+    "dev": "nw src/",
+    "build": "nwbuild --mode build --platform win --arch x64 --version 0.75.1 --glob false --outDir dist src",
+    "prod": "nwbuild --mode build --platform win --arch x64 --version 0.75.1 --glob false --outDir dist src"
+  },
+  "devDependencies": {
+    "nw": "^0.75.1",
+    "nw-builder": "^4.2.3"
+  },
+  "allowScripts": {
+    "nw@0.75.1": true
+  }
+}

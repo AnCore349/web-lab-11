@@ -1,0 +1,18 @@
+{
+  "name": "game-ball",
+  "version": "1.0.0",
+  "description": "Розбий блоки — гра для лабораторної роботи",
+  "main": "views/main.html",
+  "window": {
+    "title": "Розбий блоки для ІПЗ!",
+    "icon": "assets/icon.png",
+    "toolbar": false,
+    "width": 860,
+    "height": 760,
+    "min_width": 860,
+    "min_height": 760,
+    "max_width": 860,
+    "max_height": 760,
+    "position": "center"
+  }
+}
